@@ -1,0 +1,26 @@
+git là một phần mềm (công cụ) giúp quản lý mã nguồn
+	tại sao ?
+		Trên thực tế 1 dự án sẽ có rất nhiều dòng code -> có nhiều người làm chung 
+	quản lý:
+		+ lưu lịch sử code (lưu nhưng version cũ)
+		+ tự động sao lưu code 
+
+install
+	+ down load git (disable view release notes)
+Sign Up gitHub
+
+git config email username 
+	git config --global user.name ""
+	git config --global user.email ""
+
+Hướng dẫn Clone
+	git clone link_git
+Hướng dẫn Tạo 1 project trên github
+	New -> Repository name 
+	Public || private 
+	Đẩy file lên github:
+		git status -> kiểm tra trạng thái file (sẽ đổi màu file vừa thay đổi)
+		git add . -> thêm toàn bộ file -> gõ lại git status
+		git commit -m "" -> ghi chú lại nội dung file vừa thêm là gì ?
+		git push origin main -> đẩy lên github
+Hướng dẫn tạo project local và đẩy lên github 
