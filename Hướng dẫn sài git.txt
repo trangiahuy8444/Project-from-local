@@ -24,3 +24,7 @@ Hướng dẫn Tạo 1 project trên github
 		git commit -m "" -> ghi chú lại nội dung file vừa thêm là gì ?
 		git push origin main -> đẩy lên github
 Hướng dẫn tạo project local và đẩy lên github 
+	Tạo 1 github reponsitory
+	git init -> tạo 1 empty git repo
+	git status -> git add . -> git commit -m ""
+	git remote add origin https://github.com/trangiahuy8444/Project-from-local.git (coppy trên github) câu lệnh này sẽ liên kết repo từ local lên github
